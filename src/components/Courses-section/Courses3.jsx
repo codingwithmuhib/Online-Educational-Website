@@ -23,7 +23,7 @@ const coursesData = [
     id: '02',
     title: 'MH-BOARD STD. X-IX-VIII',
     lesson:
-      'Our experienced faculty at Bench Mark Coaching Classes has a proven track record of guiding JEE & NEET aspirants to success.',
+      'Our experienced faculty at Bench Mark Coaching Classes has a proven track record of guiding MH-BOARD STD. X-IX-VIII to success.',
     // students: 12.5,
     // rating: 5.9,
     imgUrl: courseImg2,
@@ -33,7 +33,7 @@ const coursesData = [
     id: '03',
     title: 'XI-XII COM.',
     lesson:
-      'Bench Mark Coaching Classes provides comprehensive study material and practice resources to help JEE & NEET aspirants excel in their exams.',
+      'Bench Mark Coaching Classes provides comprehensive study material and practice resources to help in their exams.',
     // students: 12.5,
     // rating: 5.9,
     imgUrl: courseImg3,
