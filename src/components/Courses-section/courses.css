@@ -5,6 +5,8 @@
 .course__img img {
   border-radius: 10px;
   margin-bottom: 20px;
+  height: 200px; /* Set a fixed height for all images */
+  width: auto; /* Let the width adjust according to the aspect ratio */
 }
 
 .enroll a {
@@ -34,4 +36,21 @@
 
 .course__top__left h2 {
   font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.hero__img {
+  width: 34rem; /* Ensure the image spans the entire width of its container */
+  height: 100%; /* Maintain the image's aspect ratio */
+  /* max-width: 100%; Set maximum width to prevent image from exceeding its container */
+  max-height: 100%; /* Set maximum height to prevent image from exceeding its container */
+  margin-left: 8rem;
+}
+
+.hero__img-2 {
+  width: 25rem; /* Ensure the image spans the entire width of its container */
+  height: 90%; /* Maintain the image's aspect ratio */
+  /* max-width: 100%; Set maximum width to prevent image from exceeding its container */
+  max-height: 100%; /* Set maximum height to prevent image from exceeding its container */
+  margin-left: 12rem;
 }

@@ -21,12 +21,13 @@ const AboutUs = () => {
             <div className='about__content'>
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+                At Bench Mark Educational Center, we cultivate excellence from
+                preschool to competitive exam preparation. Our dedicated
+                educators and modern facilities ensure a nurturing environment
+                where every student can thrive and achieve their full potential.
               </p>
 
-              <div className='about__counter'>
+              {/* <div className='about__counter'>
                 <div className=' d-flex gap-5 align-items-center'>
                   <div className='single__counter'>
                     <span className='counter'>
@@ -62,7 +63,7 @@ const AboutUs = () => {
                     <p className='counter__title'>Categories Served</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

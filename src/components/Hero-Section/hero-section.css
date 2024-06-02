@@ -1,23 +1,26 @@
 .hero__content h2 {
-  font-weight: 600;
-  line-height: 55px;
+  font-weight: 700;
+  line-height: 3.5rem; /* Adjust line height for responsiveness */
+  font-size: 3rem;
 }
 
 .hero__content {
-  padding-top: 80px;
+  padding-top: 8rem; /* Adjust padding for responsiveness */
 }
+
 .search input {
   border: none;
   outline: none;
-  padding: 7px 10%;
+  padding: 0.7rem 3%; /* Adjust padding for responsiveness */
 }
 
 .search {
-  width: 60%;
+  width: 90%; /* Adjust width for responsiveness */
+  max-width: 500px; /* Set max-width for larger screens */
   border: 1px solid #17bf9d44;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 50px;
-  margin-top: 20px;
+  margin-top: 2rem; /* Adjust margin for responsiveness */
 }

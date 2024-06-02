@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Container, Row, Col } from "reactstrap";
+import React, { useState } from 'react';
+import { Container, Row, Col } from 'reactstrap';
 
-import chooseImg from "../../assests/images/why-choose-us.png";
-import "./choose-us.css";
+import chooseImg from '../../assests/images/why-choose-us.png';
+import './choose-us.css';
 
-import ReactPlayer from "react-player";
+import ReactPlayer from 'react-player';
 
 const ChooseUs = () => {
   const [showVideo, setShowVideo] = useState(false);
@@ -12,38 +12,38 @@ const ChooseUs = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="6" md="6">
-            <div className="choose__content">
-              <h2>Why Choose Us</h2>
+          <Col lg='6' md='6'>
+            <div className='choose__content'>
+              <h2>
+                Bench Mark Educational Center and Bench Mark Coaching Classes
+              </h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt mollitia nostrum harum eos praesentium odit a sed quod
-                aut fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Reprehenderit omnis, culpa eligendi inventore perspiciatis
-                minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores cupiditate facilis provident quidem accusamus impedit
-                tenetur laboriosam debitis nisi eius!
+                Choose Bench Mark for a comprehensive educational journey from
+                preschool to competitive exam preparation. With nurturing
+                environments, experienced faculty, and tailored programs, we
+                empower students to thrive academically and achieve their
+                goals."
               </p>
             </div>
           </Col>
 
-          <Col lg="6" md="6">
-            <div className="choose__img">
+          <Col lg='6' md='6'>
+            <div className='choose__img'>
               {showVideo ? (
                 <ReactPlayer
-                  url="https://www.youtube.com/watch?v=qFp27TR4Yew"
+                  url='https://youtu.be/n14ZUhgeVhE?feature=shared'
                   controls
-                  width="100%"
-                  height="350px"
+                  width='100%'
+                  height='350px'
                 />
               ) : (
-                <img src={chooseImg} alt="" className="w-100" />
+                <img src={chooseImg} alt='' className='w-100' />
               )}
 
               {!showVideo && (
-                <span className="play__icon">
+                <span className='play__icon'>
                   <i
-                    class="ri-play-circle-line"
+                    class='ri-play-circle-line'
                     onClick={() => setShowVideo(!showVideo)}
                   ></i>
                 </span>

@@ -1,0 +1,49 @@
+.custom-col {
+  margin-bottom: 20px; /* Adjust the bottom margin to add space between rows */
+}
+
+@media (min-width: 992px) {
+  .custom-col {
+    margin-right: 18px; /* Adjust the right margin for large screens */
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .custom-col {
+    margin-right: 15px; /* Adjust the right margin for medium screens */
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-col {
+    margin-right: 10px; /* Adjust the right margin for small screens */
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 0.5rem; /* Adjust this value as needed */
+}
+
+.custom-name {
+  flex: 1; /* Makes the name take up the remaining space */
+  white-space: normal; /* Allow text to wrap */
+}
+
+.custom-icon {
+  font-size: 2rem; /* Adjust the font size to make the icon larger */
+  width: auto; /* Let the icon take its natural width */
+}
+
+.custom-img {
+  width: 80px; /* Adjust the width of the image as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust the spacing between the image and the text */
+}
