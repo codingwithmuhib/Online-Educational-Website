@@ -44,6 +44,12 @@
   display: none;
 }
 
+.hero__img-2 {
+  width: 10px; /* Adjust the width of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust the margin between the logo and text */
+}
+
 @media only screen and (max-width: 991px) {
   .nav__menu {
     position: fixed;

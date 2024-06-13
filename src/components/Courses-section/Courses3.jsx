@@ -1,18 +1,19 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import courseImg1 from '../../assests/images/safe-learning-environment-2.png';
-import courseImg2 from '../../assests/images/play-based-learning.jpg';
-import courseImg3 from '../../assests/images/Students-Need-Personal-Attention.jpg';
-import heroImg from '../../assests/images/academics.png';
+import courseImg1 from '../../assests/images/Experienced-faculty29042019.jpg';
+import courseImg2 from '../../assests/images/about-us.png';
+import courseImg3 from '../../assests/images/ui-ux.png';
+import heroImg from '../../assests/images/Logo-04.png';
+
 import './courses.css';
 import CourseCard from './CourseCard';
 
 const coursesData = [
   {
     id: '01',
-    title: 'Play-based Learning Environment',
+    title: 'XI-XII SCIENCE : NEET / JEE / MHT-CET',
     lesson:
-      'At Blue Cubs Preschool, we foster a love for learning through playful exploration and hands-on activities.',
+      'Bench Mark Coaching Classes oﬀers a focused curriculum tailored for JEE & NEET aspirants, ensuring eﬀective preparation for these competitive exams.',
     // students: 12.5,
     // rating: 5.9,
     imgUrl: courseImg1,
@@ -20,9 +21,9 @@ const coursesData = [
 
   {
     id: '02',
-    title: 'Individualized Attention and Care',
+    title: 'MH-BOARD STD. X-IX-VIII',
     lesson:
-      'Our experienced teachers provide personalized support to ensure every child thrives at Blue Cubs Preschool.',
+      'Our experienced faculty at Bench Mark Coaching Classes has a proven track record of guiding MH-BOARD STD. X-IX-VIII to success.',
     // students: 12.5,
     // rating: 5.9,
     imgUrl: courseImg2,
@@ -30,9 +31,9 @@ const coursesData = [
 
   {
     id: '03',
-    title: 'Safe and Stimulating Environment',
+    title: 'XI-XII COM.',
     lesson:
-      'At Blue Cubs Preschool, we prioritize safety and provide a nurturing environment where children can grow and explore with conﬁdence.',
+      'Bench Mark Coaching Classes provides comprehensive study material and practice resources to help in their exams.',
     // students: 12.5,
     // rating: 5.9,
     imgUrl: courseImg3,
@@ -48,17 +49,16 @@ const Courses = () => {
             <div className='course__top d-flex justify-content-between align-items-center'>
               <div className='course__top__left w-50 row'>
                 <div className='col-md-8'>
-                  <h2>Blue cubs Pre-school</h2>
+                  <h2>Bench Mark Coaching Classes (JEE & NEET Preparation)</h2>
                   <p>
-                    Blue Cubs Preschool: Where Curiosity Meets Creativity! Our
-                    dynamic learning environment sparks imaginations, fosters
-                    independence, and cultivates a love for learning from the
-                    very start. Join us as we ignite the brightest futures for
-                    our little explorers!
+                    At Bench Mark Coaching Classes, we're dedicated to helping
+                    JEE & NEET aspirants achieve their dreams. With experienced
+                    faculty and focused resources, we empower students for
+                    success in competitive exams and beyond."
                   </p>
                 </div>
                 <div className='col-md-4 '>
-                  <img src={heroImg} alt='' className='hero__img' />
+                  <img src={heroImg} alt='' className='hero__img-2' />
                 </div>
               </div>
 

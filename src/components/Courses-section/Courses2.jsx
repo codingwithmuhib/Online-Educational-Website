@@ -1,18 +1,18 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import courseImg1 from '../../assests/images/safe-learning-environment-2.png';
-import courseImg2 from '../../assests/images/play-based-learning.jpg';
-import courseImg3 from '../../assests/images/Students-Need-Personal-Attention.jpg';
-import heroImg from '../../assests/images/academics.png';
+import courseImg1 from '../../assests/images/web-design.png';
+import courseImg2 from '../../assests/images/students-working-on-a-project-plan-KH7U83J.jpg';
+import courseImg3 from '../../assests/images/Cover-Image-2.png';
+import heroImg from '../../assests/images/studclass.jpg';
 import './courses.css';
 import CourseCard from './CourseCard';
 
 const coursesData = [
   {
     id: '01',
-    title: 'Play-based Learning Environment',
+    title: 'Holistic Curriculum Integration:',
     lesson:
-      'At Blue Cubs Preschool, we foster a love for learning through playful exploration and hands-on activities.',
+      'At Bench Mark High School,we oﬀer a holistic curriculum that seamlessly integrates academics, arts, sports, and character development to shape well-rounded students.',
     // students: 12.5,
     // rating: 5.9,
     imgUrl: courseImg1,
@@ -20,9 +20,9 @@ const coursesData = [
 
   {
     id: '02',
-    title: 'Individualized Attention and Care',
+    title: 'Small Class Sizes for Personalized Learning',
     lesson:
-      'Our experienced teachers provide personalized support to ensure every child thrives at Blue Cubs Preschool.',
+      'With small class sizes, our dedicated teachers at Bench Mark High School provide personalized attention and tailored instruction to ensure every student receives the support they need to succeed.',
     // students: 12.5,
     // rating: 5.9,
     imgUrl: courseImg2,
@@ -30,9 +30,9 @@ const coursesData = [
 
   {
     id: '03',
-    title: 'Safe and Stimulating Environment',
+    title: 'Project-Based Learning Initiatives',
     lesson:
-      'At Blue Cubs Preschool, we prioritize safety and provide a nurturing environment where children can grow and explore with conﬁdence.',
+      'Bench Mark High School empowers students through project-based learning initiatives, where they tackle real-world challenges, develop critical thinking skills, and collaborate eﬀectively for future success.',
     // students: 12.5,
     // rating: 5.9,
     imgUrl: courseImg3,
@@ -48,13 +48,13 @@ const Courses = () => {
             <div className='course__top d-flex justify-content-between align-items-center'>
               <div className='course__top__left w-50 row'>
                 <div className='col-md-8'>
-                  <h2>Blue cubs Pre-school</h2>
+                  <h2>Bench Mark High School</h2>
                   <p>
-                    Blue Cubs Preschool: Where Curiosity Meets Creativity! Our
-                    dynamic learning environment sparks imaginations, fosters
-                    independence, and cultivates a love for learning from the
-                    very start. Join us as we ignite the brightest futures for
-                    our little explorers!
+                    Discover Bench Mark Educational Center, where every child's
+                    journey from preschool to high school is nurtured with care
+                    and excellence. Our dedicated educators and modern
+                    facilities ensure a supportive environment where students
+                    thrive and succeed.
                   </p>
                 </div>
                 <div className='col-md-4 '>
